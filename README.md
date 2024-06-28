@@ -4,11 +4,8 @@ Connected to a hotel data source and performed data cleaning, transformation, an
 
 ## Project Overview
 
-In this capstone project, I analyzed hotel booking data, performed exploratory data analysis (EDA) and regular data analysis using Python, and visualized the results using Power BI. This project is documented and available on GitHub. The files included in the repository are:
+Connected to a hotel data source and performed data cleaning, transformation, analysis, and visualization to provide insights into customer acquisition, retention, and revenue generation. are:
 
-- `dataset.csv`
-- `dashboard.pbix`
-- `eda.ipynb`
 - `powerbi_analysis.png`
 
 ## Dataset Description
@@ -47,9 +44,3 @@ The dataset contains the following columns:
 - **total_of_special_requests:** Number of special requests made by the customer (e.g., high floor, room with view)
 - **reservation_status:** Reservation status, indicating the current status of the booking (Canceled - booking was canceled by the customer; Check-Out - customer has checked out; No-Show - customer did not check in and gave no indication of the reason)
 - **reservation_status_date:** Date at which the last status was set. This variable is used in conjunction with the Reservation Status to determine when the status was last set.
-
-## Project Files
-
-- **dataset.csv:** The raw data used for analysis.
-- **dashboard.pbix:** The Power BI dashboard file showcasing the visualized insights from the data.
-- **eda.ipynb:** The Jupyter Notebook file containing both the exploratory data analysis (EDA) and regular data analysis performed 
